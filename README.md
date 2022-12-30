@@ -34,5 +34,14 @@ $ npm run test:cov
 ```bash
 # Deploying using a script who builds and runs nodemon
 npm run up
-## to rebuild your app when any code changes are made
+# to rebuild your app when any code changes are made (in another terminal or use "npm run build && docker-compose up -d" in script "up")
 nest build --watch
+```
+## Starting Prisma
+
+```bash
+
+ npx prisma init --datasource-provider SQLite
+
+
+ ```
