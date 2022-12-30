@@ -29,8 +29,8 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-## Using Docker
+## Using Docker with docker-compose.yml without Dockerfile
 
 ```bash
 # Deploying
-docker compose up
+npm run up

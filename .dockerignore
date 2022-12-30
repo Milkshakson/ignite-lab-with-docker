@@ -1,0 +1,14 @@
+# Ignore files and directories that are generated during the build process
+node_modules/
+dist/
+
+# Ignore files and directories that are specific to your development environment
+.vscode/
+# .env
+.idea/
+
+# Ignore files and directories that are not necessary for your application to run
+.git/
+.gitignore
+LICENSE
+README.md
