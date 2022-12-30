@@ -32,5 +32,7 @@ $ npm run test:cov
 ## Using Docker with docker-compose.yml without Dockerfile
 
 ```bash
-# Deploying
+# Deploying using a script who builds and runs nodemon
 npm run up
+## to rebuild your app when any code changes are made
+nest build --watch
